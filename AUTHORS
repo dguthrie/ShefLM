@@ -1,0 +1,3 @@
+shefLMStore was written by David Guthrie (dguthrie@dcs.shef.ac.uk).  
+
+ShefLMStore makes use of boost (www.boost.org), zlib (www.zlib.net), the cmph library (cmph.sourceforge.net) by Davi de Castro Reis (davi@users.sourceforge.net) and Fabiano Cupertino Botelho (fc_botelho@users.sourceforge.net), and the sux c++ library (sux.dsi.unimi.it) by Sebastiano Vigna.
