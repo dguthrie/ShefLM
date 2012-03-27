@@ -37,7 +37,7 @@
 #include <boost/serialization/shared_ptr.hpp>
 #include <boost/serialization/array.hpp>
 #include <boost/serialization/split_member.hpp>
-#include <boost/serialization/dynamic_bitset.hpp>
+#include "dynamic_bitset.hpp"
 
 using std::cout;
 using std::cerr;

@@ -35,7 +35,7 @@
 #include <boost/serialization/utility.hpp>
 #include <boost/serialization/list.hpp>
 #include <boost/serialization/shared_ptr.hpp>
-#include <boost/serialization/dynamic_bitset.hpp>
+#include "dynamic_bitset.hpp"
 
 #include "ShefBitArray.h"
 
