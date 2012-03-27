@@ -132,7 +132,7 @@ FingerPrintStore::FingerPrintStore(const uint64_t & numberOfElements, const unsi
 	if (bits_per_fingerprint>32) {cerr<< "bits per fingerprint must be 32 bits or less because of the hash function used" <<endl; exit(1);}
 	cerr << "Creating Hash Storage with " << bits_per_fingerprint <<" bits per fingerprint" <<endl;
 	
-	boost::shared_ptr<bitarray> sbr_ptr(new bitarray(totalNumberOfBits));
+	boost::shared_ptr<boost::dynamic_bitset<> > sbr_ptr(new boost::dynamic_bitset<>(totalNumberOfBits));
 	store.reset(new CompactStore(sbr_ptr,finger_print_size));
 }
 
