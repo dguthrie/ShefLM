@@ -1,1 +1,1 @@
-lib cmph : [ glob *.c ] : : : <include>. ;
+lib cmph : [ glob *.c ] ../..//z : : : <include>. ;
