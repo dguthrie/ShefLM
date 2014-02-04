@@ -1,0 +1,7 @@
+project : default-build <threading>multi <warnings>on <variant>release ;
+path-constant TOP : . ;
+
+lib z ;
+
+install dist : src//shefLMStore : <location>dist <dll-path>$(TOP)/dist <install-dependencies>on <install-type>EXE <install-type>LIB  ;
+

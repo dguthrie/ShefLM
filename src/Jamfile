@@ -1,0 +1,5 @@
+lib boost_serialization ;
+lib boost_iostreams ;
+
+lib sheflm : [ glob *.cpp : main.cpp ] cmph_0_9//cmph boost_serialization boost_iostreams ..//z ;
+exe shefLMStore : main.cpp sheflm cmph_0_9//cmph boost_serialization boost_iostreams ..//z ;
